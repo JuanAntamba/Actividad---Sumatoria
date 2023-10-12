@@ -9,3 +9,8 @@ int main() {
     for (j = 2 * n; j >= 1; j--) {
         s += j;
     }
+    if (s == 1) {
+        printf("El número de Gauss para %d es 1.\n", n);
+    } else {
+        printf("El número de Gauss para %d es %d.\n", n, s);
+    }
