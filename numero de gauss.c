@@ -14,3 +14,5 @@ int main() {
     } else {
         printf("El número de Gauss para %d es %d.\n", n, s);
     }
+    return 0;
+}
